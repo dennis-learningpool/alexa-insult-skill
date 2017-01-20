@@ -2,7 +2,7 @@ module.change_code = 1;
 'use strict';
 
 const Alexa = require('alexa-app');
-var app = new Alexa.app('alexa-slack-skill');
+var app = new Alexa.app('alexa-insult-skill');
 
 app.launch(function (req, res) {
 	res.say('Who shall I insult?').reprompt('I should call who a what?').shouldEndSession(false);
