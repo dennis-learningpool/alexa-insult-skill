@@ -1,7 +1,7 @@
 {
-  "name": "alexa-slack-skill",
-  "version": "0.0.0",
-  "description": "An alexa skill service for speaking to a slack team",
+  "name": "alexa-insult-skill",
+  "version": "1.0.0",
+  "description": "An alexa skill service for insulting your friends",
   "engines": {
     "node": "5.9.1"
   },
@@ -15,12 +15,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dennis-learningpool/alexa-slack-skill.git"
+    "url": "https://github.com/dennis-learningpool/alexa-insult-skill.git"
   },
   "keywords": [
     "node",
     "heroku",
     "alexa",
+    "nsfw",
 	"amazon"
   ],
   "license": "MIT"
